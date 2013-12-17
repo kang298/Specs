@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/kang298/EGTReviewPrompt.git", :tag => "1.0" }
 
 
-  s.source_files  = 'EGTReviewPrompt/EGTReviewPrompt/EGTReviewPrompt/*.{h,m}'
+  s.source_files  = 'EGTReviewPrompt/EGTReviewPrompt/EGTReviewPrompt/**'
 
 
   s.resources = "EGTReviewPrompt/EGTReviewPrompt/EGTReviewPrompt/Resources/*.png"
