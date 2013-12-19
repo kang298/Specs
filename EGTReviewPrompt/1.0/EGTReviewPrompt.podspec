@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "Show prompt view"
 
 
-  s.homepage     = "https://github.com/kang298/EGTReviewPrompt"
+  s.homepage     = "https://bitbucket.org/kang298/egtreviewprompt"
     s.license      = { :type => 'EGT', :file => 'LICENSE' }
 
 
@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/kang298/EGTReviewPrompt.git", :tag => "1.0" }
+  s.source       = { :git => "https://kang298@bitbucket.org/kang298/egtreviewprompt.git", :tag => "1.0" }
 
 
-  s.source_files  = 'EGTReviewPrompt/**/*.{h,m,xib}'
+  s.source_files  = 'EGTReviewPrompt/**/*.{h,m}'
 
 
-  s.resources = "EGTReviewPrompt/**/*.png"
+  s.resources = "EGTReviewPrompt/**/*.{png,xib}"
 
 
   s.requires_arc = true
