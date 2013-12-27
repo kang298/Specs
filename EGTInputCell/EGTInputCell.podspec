@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'EGTInputCell/*.{h,m}'
 
-  s.resources = "EGTInputCell/*.png"
+  s.resources = "EGTInputCell/*.{png,xib}"
 
 
 
